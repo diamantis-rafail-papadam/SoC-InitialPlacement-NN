@@ -23,6 +23,6 @@ Steps to execute the code:
   - Line 125 | The path for the basic pretrained model, if you have one.
   - Line 126 | The path for the cnn pretrained model, if you have one.
   - Line 180 | This is the number of epochs.
-  - Line 184 | Choose a graphics card for basic model, or even run the network on the 'cpu' based on your system availability.
-  - Line 187 | Choose a graphics card for the cnn, or even run the network on the 'cpu' based on your system availability.
+  - Line 184 | Choose a device for basic model, according to your system availability.
+  - Line 187 | Choose a device for the cnn, according to your system availability.
 6. Run "python produce_graphs.py" and enjoy the results!
