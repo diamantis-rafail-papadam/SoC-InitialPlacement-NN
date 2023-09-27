@@ -26,3 +26,5 @@ Steps to execute the code:
   - Line 184 | Choose a device for the basic model, according to your system availability.
   - Line 187 | Choose a device for the cnn model, according to your system availability.
 6. Run "python produce_graphs.py" and enjoy the results!
+
+As a final note, you can use the "train.py" script to pre-train either network in whatever way you like.
