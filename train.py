@@ -13,7 +13,7 @@ from sklearn.model_selection import train_test_split
 from architectures import *
 
 #constants
-model_path = "/media/data/dpapadam/jsettlers/machine_learning/pretrained_basic.pt"
+model_path = "/media/data/jsettlers/machine_learning/pretrained_basic.pt"
 
 #hyper-parameters
 batch_size     = 100
