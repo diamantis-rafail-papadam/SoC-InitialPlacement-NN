@@ -122,8 +122,8 @@ def train_model(model, optimizer, criterion, device, epochs, trainloader, validl
     
 if __name__ == "__main__":
     #constants
-    basic_model_path = "/media/data/dpapadam/jsettlers/machine_learning/pretrained_basic.pt"
-    cnn_model_path  = "/media/data/dpapadam/jsettlers/machine_learning/pretrained_cnn.pt"
+    basic_model_path = "/media/data/jsettlers/machine_learning/pretrained_basic.pt"
+    cnn_model_path  = "/media/data/jsettlers/machine_learning/pretrained_cnn.pt"
 
     #READ DATA
     #option 1
