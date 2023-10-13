@@ -16,7 +16,7 @@ Steps to execute the code:
 4. Run `pip install -r requirements.txt`.
 > You might need to download another pytorch version according to your NVIDIA CUDA Driver.  
 > If this is the case, check [current versions](https://pytorch.org/get-started/locally/) and [old versions](https://pytorch.org/get-started/previous-versions/).
-5. Unzip the downloaded dataset inside *SoC-InitialPlacement-NN*.
+5. Unzip the downloaded dataset inside "*SoC-InitialPlacement-NN*" folder.
 > You should see a "logs" folder created which contains all ".soclog" files.
 > If you want to see the win ratio of each player, run "python count_wins.py" (inside the created folder where "logs" are located).  
 > The first number you see is the win ratio for each player while the second number is the average score over all ".soclog" files.
