@@ -11,7 +11,8 @@ You can download the ".soclog" files as well as a pretrained CNN from this [goog
 
 Steps to execute the code:
 1. Run `git clone https://github.com/diamantis-rafail-papadam/SoC-InitialPlacement-NN.git`
-2. Go inside the created folder and unzip the downloaded dataset there.
+2. `pip install -r SoC-InitialPlacements-NN.git/requirements.txt`. (You might need to download another pytorch version according to your NVIDIA CUDA Driver)
+3. Go inside the created folder and unzip the downloaded dataset there.
 > You should see a "logs" folder created which contains all ".soclog" files.  
 > If you want to see the win ratio of each player, run "python count_wins.py" (inside the created folder where "logs" are located).  
 > The first number you see is the win ratio for each player while the second number is the average score over all ".soclog" files.
