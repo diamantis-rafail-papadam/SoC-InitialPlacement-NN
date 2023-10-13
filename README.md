@@ -13,9 +13,9 @@ Steps to execute the code:
 1. Download [miniconda](https://docs.conda.io/projects/miniconda/en/latest)
 2. conda create --name <specify_conda_environment_name> python=3.8
 3. Run `git clone https://github.com/diamantis-rafail-papadam/SoC-InitialPlacement-NN.git` and `cd SoC-InitialPlacement-NN`.
-5. `pip install -r SoC-InitialPlacements-NN.git/requirements.txt`.
+4. Run `pip install -r requirements.txt`.
 > You might need to download another pytorch version according to your NVIDIA CUDA Driver
-7. Go inside the created folder and unzip the downloaded dataset there.
+5. Go inside the created folder and unzip the downloaded dataset there.
 > You should see a "logs" folder created which contains all ".soclog" files.
 > If you want to see the win ratio of each player, run "python count_wins.py" (inside the created folder where "logs" are located).  
 > The first number you see is the win ratio for each player while the second number is the average score over all ".soclog" files.
