@@ -157,8 +157,8 @@ if __name__ == "__main__":
     testloader  = DataLoader(testset, batch_size=batch_size, shuffle=False)
 
     #CREATE MODEL, CRITERION & OPTIMIZER
-    dev0 = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
-    dev1 = torch.device('cuda:1' if torch.cuda.is_available() else 'cpu')
+    #dev0 = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+    #dev1 = torch.device('cuda:1' if torch.cuda.is_available() else 'cpu')
 
     model_basic = basic()
     model_cnn   = cnn()
@@ -181,10 +181,10 @@ if __name__ == "__main__":
     mp.set_start_method('spawn')
     result_queue = mp.Queue()
     processes = []
-    proc1 = mp.Process(target=train_model, args=(model_basic, optimizer1, criterion, 'cuda:1', num_epochs, trainloader, validloader, testloader, result_queue))
+    proc1 = mp.Process(target=train_model, args=(model_basic, optimizer1, criterion, 'cuda:0', num_epochs, trainloader, validloader, testloader, result_queue))
     proc1.start()
     processes.append((proc1, []))
-    proc2 = mp.Process(target=train_model, args=(model_cnn, optimizer2, criterion, 'cuda:1', num_epochs, trainloader, validloader, testloader, result_queue))
+    proc2 = mp.Process(target=train_model, args=(model_cnn, optimizer2, criterion, 'cuda:0', num_epochs, trainloader, validloader, testloader, result_queue))
     proc2.start()
     processes.append((proc2, []))
 
