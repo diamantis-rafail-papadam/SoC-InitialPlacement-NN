@@ -14,7 +14,7 @@ Steps to execute the code:
 2. conda create --name <specify_conda_environment_name> python=3.8
 3. Run `git clone https://github.com/diamantis-rafail-papadam/SoC-InitialPlacement-NN.git` and `cd SoC-InitialPlacement-NN`.
 4. Run `pip install -r requirements.txt`.
-> You might need to download another pytorch version according to your NVIDIA CUDA Driver.
+> You might need to download another pytorch version according to your NVIDIA CUDA Driver.  
 > If this is the case, check [current versions](https://pytorch.org/get-started/locally/) and [old versions](https://pytorch.org/get-started/previous-versions/).
 5. Go inside the created folder and unzip the downloaded dataset there.
 > You should see a "logs" folder created which contains all ".soclog" files.
