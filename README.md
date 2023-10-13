@@ -10,8 +10,8 @@ You can download the ".soclog" files as well as a pretrained CNN from this [goog
 > It shall be uploaded proprely once the availability of more space in the cloud is secured.
 
 Steps to execute the code:
-1. Download [miniconda](https://docs.conda.io/projects/miniconda/en/latest)
-2. conda create --name <specify_conda_environment_name> python=3.8
+1. Download [miniconda](https://docs.conda.io/projects/miniconda/en/latest).
+2. conda create --name <specify_conda_environment_name> python=3.8.
 3. Run `git clone https://github.com/diamantis-rafail-papadam/SoC-InitialPlacement-NN.git` and `cd SoC-InitialPlacement-NN`.
 4. Run `pip install -r requirements.txt`.
 > You might need to download another pytorch version according to your NVIDIA CUDA Driver.  
