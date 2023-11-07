@@ -122,10 +122,10 @@ for it in tqdm(range(len(inputs_npy))):
     
     #View the data:
     if it == 0:
-        print(f'Number Layout Data:    {num_layout.shape}')
-        print(num_layout.reshape(7, 7))
         print(f'Hex Layout Data: {new_hex_layout.shape}')
         print(new_hex_layout.reshape(7, 7, 13))
+        print(f'Number Layout Data:    {num_layout.shape}')
+        print(num_layout.reshape(7, 7))
         print(f'Initial Placement Data: {new_placements.shape}')
         print(new_placements.reshape(54 + 72, 4))
         print(len(placements))
